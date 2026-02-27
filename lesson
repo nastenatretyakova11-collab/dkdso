@@ -1,0 +1,29 @@
+#тернарные операторы
+'''
+a = int(input())
+print('Число равно нулю' if a == 0 else 'Число не равно нулю')
+'''
+# пример со счётчиком
+'''
+a = int(input()) #20
+b = int(input()) #-7
+c = int(input()) #12
+counter = 0 #0
+if a >= 0:
+    #da
+    counter = counter + a  # counter = 20
+if b >= 0:
+    #net
+    counter = counter + b
+if c >= 0:
+    #da
+    counter = counter + c  #counter = 32
+print(counter)
+'''
+# пример с max
+'''
+a = int(input()) #20
+b = int(input()) #-7
+c = int(input()) #12
+print(max(a,0)+max(b,0)+max(c,0))
+'''
